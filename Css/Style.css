@@ -4,3 +4,65 @@
     box-sizing: border-box;
 
 }
+
+body{
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    width: 1000px;
+    color: white;
+
+
+}
+
+.navegacion-principal {
+}
+.navegacion-principal__menu {
+}
+.navegacion-principal__menu-derecha {
+    display: flex;
+    list-style: none;
+
+
+}
+.fas {
+}
+.fa-search {
+    color: white;
+
+}
+.cabecera {
+}
+.boton {
+}
+.fa-chevron-right {
+}
+.tarjetas-noticias {
+}
+.tarjetas-noticias__tarjeta {
+}
+.fa-angle-double-right {
+}
+.banner-tarjetas-uno {
+}
+.banner-tarjetas-uno__contenido {
+}
+.banner-tarjetas-dos {
+}
+.banner-tarjetas-dos__contenido {
+}
+.social {
+}
+.social__enlaces {
+}
+.fab {
+}
+.fa-facebook-f {
+}
+.enlaces-pie {
+}
+.enlaces-pie__contenedor {
+}
+.enlaces-pie__lista {
+}
+.pie {
+}
