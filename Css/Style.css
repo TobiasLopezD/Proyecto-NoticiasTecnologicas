@@ -5,6 +5,7 @@
 
 }
 
+
 body{
     background-color: black;
     font-family: "Oswald", sans-serif;
@@ -14,14 +15,54 @@ body{
 
 }
 
-.navegacion-principal {
-}
-.navegacion-principal__menu {
-}
-.navegacion-principal__menu-derecha {
-    display: flex;
-    list-style: none;
+.container {
+    width: 90%;
 
+}
+
+.navegacion-principal {
+    display: flex;   
+    margin-top: 10px;
+
+}
+
+
+.navegacion-principal__marca {
+    justify-content: flex-start;
+    width: 5%;
+}
+
+.navegacion-principal__menu {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    list-style: none;
+    margin : 20px;
+    gap: 30px;
+    
+}
+
+.navegacion-principal__menu li{
+    list-style: none;
+    
+    
+}
+
+.navegacion-principal__menu a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.navegacion-principal__menu a:hover{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.navegacion-principal__menu-derecha {
+    list-style: none;
+    margin-top: 10px;
+    gap: 10px;
 
 }
 .fas {
@@ -30,17 +71,74 @@ body{
     color: white;
 
 }
-.cabecera {
+.cabecera{
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+    
 }
-.boton {
+
+.cabeceraimagen{
+    width: 95%;
+    background-image: url('https://github.com/Marcelo89890/Proyecto1-2024/blob/main/showcase.jpg?raw=true');
+    text-align: center;
+    background-size: cover;
+    margin: 30px;
+    padding: 25px;
+    background-position: center;
 }
-.fa-chevron-right {
+
+.cabeceraimagen p {
+    margin-bottom: 15px;
+
 }
+
+.boton{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: white;
+    
+    background-color: grey;
+    border-radius: 5px;
+    border: solid aqua;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 .tarjetas-noticias {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    gap: 20px;
+    text-align: center;
+    
+
 }
+
 .tarjetas-noticias__tarjeta {
+    justify-content: space-around;
+    
+
 }
-.fa-angle-double-right {
+
+.tarjetas-noticias__tarjeta img {
+    width: 100%;
+
+}
+
+.tarjetas-noticias a {
+    align-content: center ;
+    text-decoration: none;
+    Color: white;
+    
+}
+
+.fa-angle-double-right{
+
 }
 .banner-tarjetas-uno {
 }
