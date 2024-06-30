@@ -125,13 +125,14 @@ body{
 
 .tarjetas-noticias__tarjeta {
     justify-content: space-around;
+
     
 
 }
 
 .tarjetas-noticias__tarjeta img {
     width: 100%;
-
+    height: 150px;
 }
 
 .tarjetas-noticias a {
@@ -147,10 +148,66 @@ body{
 .banner-tarjetas-uno {
 }
 .banner-tarjetas-uno__contenido {
+    width: 95%;
+    text-align: center;
+    background-size: cover;
+    margin: 30px;
+    padding: 45px;
+    background-position: center;
+    background-image: url('https://github.com/Marcelo89890/Proyecto1-2024/blob/main/tech-red.jpg?raw=true');
+    color: beige;
 }
+
+.tarjetasdos img{
+    width: 100%;
+    height: 200px;
+    position: center;
+
+}
+
+.banner-tarjetas-uno__contenido p{
+    margin-bottom: 15px;
+
+}
+
+.boton{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #020202;
+    
+    background-color: grey;
+    border-radius: 5px;
+    border: solid aqua;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.boton:hover {
+    color: #e9c914;
+
+}
+
+
 .banner-tarjetas-dos {
 }
 .banner-tarjetas-dos__contenido {
+    width: 95%;
+    text-align: center;
+    background-size: cover;
+    margin: 30px;
+    padding: 45px;
+    background-position: center;
+    background-image: url('https://github.com/Marcelo89890/Proyecto1-2024/blob/main/Image-five.jpg?raw=true');
+    color: beige;
+
+}
+
+.banner-tarjetas-dos__contenido p{
+    margin-bottom: 15px;
+
 }
 .social {
 }
