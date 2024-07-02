@@ -146,11 +146,7 @@ background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(9,121,117,0.67128858
     
 }
 
-.fa-angle-double-right{
 
-}
-.banner-tarjetas-uno {
-}
 .banner-tarjetas-uno__contenido {
     display: grid;
     grid-template-columns: 1fr;
@@ -197,8 +193,7 @@ background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(9,121,117,0.67128858
 }
 
 
-.banner-tarjetas-dos {
-}
+
 .banner-tarjetas-dos__contenido {
     display: grid;
     grid-template-columns: 1fr;
